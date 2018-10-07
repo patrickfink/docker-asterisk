@@ -22,6 +22,7 @@ RUN menuselect/menuselect \
   --disable BUILD_NATIVE \
   --enable cdr_csv \
   --enable chan_sip \
+  --enable chan_motif \
   --enable res_snmp \
   --enable res_http_websocket \
   menuselect.makeopts
